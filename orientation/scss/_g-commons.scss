@@ -1,0 +1,31 @@
+// PROJECT COMMONS
+
+// ===================================================================================
+
+// Rows
+header,
+.hero,
+.main-content,
+footer { 
+	@include make-row;	
+	min-height: 10em;
+}
+
+// ===================================================================================
+
+// Containers
+.header-container,
+.hero-container,
+.main-content-container,
+.footer-container { 
+
+	@include make-container-width;
+		width: $mobile-width;
+	min-height: 6em;
+
+	@include MQ(BP960plus) {
+		width: $widescreen-width;
+	}	
+
+}
+

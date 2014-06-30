@@ -1,0 +1,62 @@
+/* 
+
+Page Superblock: Contact
+
+*/
+
+/* ===================================================================================================================================================== */
+
+/* Containers */
+
+.contact-middle-container { 
+	@include make-container-width;
+		width: $mobile-width;
+}
+
+/* ===================================================================================================================================================== */
+
+/* Rows */
+
+.contact-middle { @include make-row; }
+
+/* ===================================================================================================================================================== */
+
+/* Contact middle */
+
+.contact-middle {
+
+	form {
+
+
+	}
+
+
+
+	label {
+		display: none;
+	}
+
+	input,
+	textarea {
+		width: 100%;
+		color: gray;
+	}
+
+	input[type=submit] {
+		@include make-button;
+		width: 30%;
+		margin-top: 1em;
+		margin-left: 70%;
+	}
+
+
+
+
+}
+
+
+	.live-text {
+		color: black;
+	}
+
+

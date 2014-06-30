@@ -1,0 +1,101 @@
+// COLORS
+
+// ===================================================================================
+
+// List 1: Library of color variables
+
+// Permanent project colors
+$ccc-grey: #ccc;
+$dark-grey: #222;
+$bright-green: #43ac6a;
+
+// Flat colors (via Design Modo)
+$turquoise: #1abc9c;
+$green-sea: #16a085;
+$peter-river: #3498db;
+
+// Social media colors
+$facebook-blue: #3b5998;
+$google-plus-red: #dd4b39;
+$linkedin-blue: #0e76a8;
+$twitter-blue: #55acee;
+
+// Teals
+$teal1: #d2ebf3;
+$teal2: darken($teal1, 10%);
+$teal3: darken($teal1, 20%);
+$teal4: darken($teal1, 30%);
+$teal5: darken($teal1, 40%);
+$teal6: darken($teal1, 50%);		
+$teal7: darken($teal1, 60%);
+$teal8: darken($teal1, 70%);
+$teal9: darken($teal1, 80%);
+$teal10: darken($teal1, 90%);
+
+// Blues
+$blue1: #0044cc;
+$blue2: darken($blue1, 10%);
+$blue3: darken($blue1, 20%);
+$blue4: darken($blue1, 30%);
+$blue5: darken($blue1, 40%);
+$blue6: darken($blue1, 50%);		
+$blue7: darken($blue1, 60%);
+$blue8: darken($blue1, 70%);
+$blue9: darken($blue1, 80%);
+$blue10: darken($blue1, 90%);
+
+// ===================================================================================
+
+// List 2: Semantic color variables 						
+
+// General
+$site-bg-color: $ccc-grey;
+$site-text-color: $dark-grey;
+$highlighted-text-color: lighten($site-text-color, 10%); 
+$font-awesome-color: $dark-grey;
+
+// Links
+$site-link-color: $blue1;
+$site-link-hover-color: $blue3;
+
+// Logo
+$ccc-logo-text-color: darken($ccc-grey, 30%);
+
+// Buttons
+$button-bg-color: $bright-green;
+$button-hover-bg-color: darken($bright-green, 10%);
+
+// Header
+$header-bg-color: $teal5;
+$header-container-bg-color: $teal4;
+
+// Hero
+$hero-bg-color: $teal6;
+$hero-container-bg-color: $teal7;
+
+// Main content
+$main-bg-color: $teal4;
+$main-container-bg-color: $teal3;
+$tile1-bg-color: $teal2;
+$tile2-bg-color: $teal1;
+$gel-bg-color: $teal3;
+
+// Footer
+$footer-bg-color: $teal10;
+$footer-container-bg-color: $teal9;
+
+// ===================================================================================
+
+// List 3: Blue color scheme
+
+// Header
+// $header-bg-color: $blue5;
+// $header-container-bg-color: $blue4;
+
+// ===================================================================================
+
+// List 4: Grayscale color scheme
+
+// Header
+// $header-bg-color: grayscle($header-bg-color);
+// $header-container-bg-color: grayscale($header-container-bg-color);

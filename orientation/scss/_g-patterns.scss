@@ -1,0 +1,41 @@
+// PATTERNS
+
+// ===================================================================================
+
+// DEFAULTS 
+// A set of default values to be updated in each project, as needed
+
+// Rows
+$defined-make-row-type: 2em !default;
+
+// ===================================================================================
+
+// Row
+@mixin make-row($make-row-type: $defined-make-row-type) { 
+
+	padding: $make-row-type 0;
+
+}
+
+// ===================================================================================
+
+// Media Query
+@mixin MQ($canvas) {
+	@if $canvas == BP320 { @media only screen and (min-width: $BP320) and (max-width: $BP480 - 1) { @content; } }
+	@else if $canvas == BP480 { @media only screen and (min-width: $BP480) and (max-width: $BP640 - 1) { @content; } }
+	@else if $canvas == BP640 { @media only screen and (min-width: $BP640) and (max-width: $BP960 - 1) { @content; } }
+	@else if $canvas == BP320plus { @media only screen and (min-width: $BP320) { @content; } }
+	@else if $canvas == BP480plus { @media only screen and (min-width: $BP480) { @content; } }
+	@else if $canvas == BP640plus { @media only screen and (min-width: $BP640) { @content; } }
+	@else if $canvas == BP640plus { @media only screen and (min-width: $BP640) { @content; } }
+	@else if $canvas == BP960plus { @media only screen and (min-width: $BP960) { @content; } }		
+}
+
+// ===================================================================================
+
+// Group (i.e., Clearfix)
+.group:after {
+     content: "";
+	 display: table;
+     clear: both;
+}

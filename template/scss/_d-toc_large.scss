@@ -1,0 +1,68 @@
+/*
+
+Table of Content (TOC) for CSS Command Centers (#CCC) template, for larger projects
+
+This file contains a list of all external components and SCSS files (i.e., "partials")
+imported into style.scss, by section. 
+
+Use the tiles / global supertiles configuration for larger #CCC projects:
+	I. External Libraries
+	II. Project Files
+		A. General Files
+		B. Tiles
+		C. Global supertiles
+
+=====================================================================================================================================================
+
+I. External Libraries											Any external library components (e.g., Compass, Bourbon, Zurb Foundation, etc.) that
+															    must be included before the project files
+
+	1. Compass  												Ensure Compass is installed on your machine
+	2. Font Awesome   			awesome.scss					Font Icons, via Font Awesome 4.1.0 by Dave Gandy
+
+=====================================================================================================================================================
+
+II. Project Files
+
+A. General Files												12 files that contain some basic settings and / or structure that are
+																intended to be further customized for each project 
+                                                                  
+	1a. Normalize 				_g-normalize.scss 				Normalize.css v3.0.1, by Nicolas Gallagher and Jonathan Neal 	
+
+	1b. Normalize Extension     _g-normalize-ext.scss 			Overrides of rules in normalize.css and additional styles
+
+	1c. HTML5 Boilerplate       _g-html5boilerplate.scss    	Rulesets found in main.css of HTML5 Boilerplate v4.3.0
+
+	2. Colors  					_g-colors.scss					Command center for color variables
+
+	3. Grids 				    _g-grids.scss					Command center for grids
+
+	4. Breakpoints 				_g-breakpoints.scss             Command center for breakpoints (used with media queries in responsive design)
+
+	5. Patterns             	_g-patterns.scss 				Library of patterns for layout, navigation, beautification, etc.
+
+	6. Typography 			    _g-typography.scss 				Initial font stylings
+
+	7. General Elements 		_g-gen-elem.scss 				Initial styles for global elements and general components
+
+	8. CMS						_g-cms.scss 					Styles for CMS default and generated CSS classes			
+
+    9. Gel 						_g-gel.scss 					Command center for positioning tiles / supertiles relative to each other	 			
+
+   10. Project Commons          _g-commons.scss 				Project-specific styles shared between multiple tiles or supertiles.
+																Include Commons Extensions (optional) if the Project Commons file becomes long
+
+B. Tiles 														Tiles are minor sections of a page, held in place by gel.
+
+C. Global supertiles 											Global supertiles are major sections of a page, which may be composed of individual component
+ 																tiles, held in place by gel. A supertile usually occupies at least a row on a page.															
+	
+=====================================================================================================================================================
+
+D. DOCUMENTATION 												Documentation only. These files are not imported into style.scss
+	
+	1. TOC, Smaller projects        _d-toc_small.scss 			Table of Contents, for smaller projects
+	2. TOC, Larger projects         _d-toc_large.scss 			Table of Contents, for larger projects
+
+
+*/

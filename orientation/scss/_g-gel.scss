@@ -1,0 +1,28 @@
+// GEL
+
+// ===================================================================================
+
+// Sticky Footer, via http://css-tricks.com/snippets/css/sticky-footer/
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -10em; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer, .page-wrap:after {
+  /* must be the same height as footer */
+  height: 10em; 
+}
+footer {
+  background: orange;
+}

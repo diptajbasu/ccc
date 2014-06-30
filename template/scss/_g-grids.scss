@@ -1,0 +1,259 @@
+/* GRIDS */
+
+/* 3-1 GRIDS */ 
+
+	// Ratio - ColumnWidth : gutterWidth ratio is 3:1
+	$r: 3;
+
+		/*
+		 	A grid
+				2 columns, 1 gutter
+
+			B grid
+				4 columns, 3 gutters
+
+			C grid
+				6 columns, 5 gutters			
+
+			General grid
+				12 columns, 11 gutters
+		*/
+
+
+
+	// A GRID - Column and Gutter totals
+
+	// Number of columns and gutters in A Grid
+	// columnTotal
+	   $c-A: 2;
+	// gutterTotal
+	   $g-A: $c-A - 1;
+
+	$col-A: $r/(($r*$c-A) + $g-A);
+	$gut-A: 1/(($r*$c-A) + $g-A);
+
+		// A INTERNAL GRIDS
+
+		// NOTE: There are no A Internal Grids
+
+
+
+	// B GRID - Column and Gutter totals
+
+	// Number of columns and gutters in B Grid
+	// columnTotal
+	   $c-B: 4;
+	// gutterTotal
+	   $g-B: $c-B - 1;
+
+	$col-B: $r/(($r*$c-B) + $g-B);
+	$gut-B: 1/(($r*$c-B) + $g-B);
+
+		// B INTERNAL GRIDS
+
+		// grid-B3
+		$columnTotal-B3: 3;
+		$gutterTotal-B3: 2;
+
+		$col-B-g3: $r/(($r*$columnTotal-B3) + $gutterTotal-B3);
+		$gut-B-g3: 1/(($r*$columnTotal-B3) + $gutterTotal-B3);
+
+		// grid-B2
+		$columnTotal-B2: 2;
+		$gutterTotal-B2: 1;
+
+		$col-B-g2: $r/(($r*$columnTotal-B2) + $gutterTotal-B2);
+		$gut-B-g2: 1/(($r*$columnTotal-B2) + $gutterTotal-B2);
+
+	// C GRID - Column and Gutter totals
+
+	// Number of columns and gutters in C Grid
+	// columnTotal 
+	$c-C: 6;
+	// gutterTotal 
+	$g-C: $c-C - 1;
+
+	$col-C: $r/(($r*$c-C) + $g-C);
+	$gut-C: 1/(($r*$c-C) + $g-C);
+
+		// C INTERNAL GRIDS
+
+		// grid-C5
+		$columnTotal-C5: 5;
+		$gutterTotal-C5: 4;
+
+		$col-C-g5: $r/(($r*$columnTotal-C5) + $gutterTotal-C5);
+		$gut-C-g5: 1/(($r*$columnTotal-C5) + $gutterTotal-C5);
+
+		// grid-C4
+		$columnTotal-C4: 4;
+		$gutterTotal-C4: 3;
+
+		$col-C-g4: $r/(($r*$columnTotal-C4) + $gutterTotal-C4);
+		$gut-C-g4: 1/(($r*$columnTotal-C4) + $gutterTotal-C4);
+
+		// grid-C3
+		$columnTotal-C3: 3;
+		$gutterTotal-C3: 2;
+
+		$col-C-g3: $r/(($r*$columnTotal-C3) + $gutterTotal-C3);
+		$gut-C-g3: 1/(($r*$columnTotal-C3) + $gutterTotal-C3);
+
+		// grid-C2
+		$columnTotal-C2: 2;
+		$gutterTotal-C2: 1;
+
+		$col-C-g2: $r/(($r*$columnTotal-C2) + $gutterTotal-C2);
+		$gut-C-g2: 1/(($r*$columnTotal-C2) + $gutterTotal-C2);
+
+
+	// GENERAL GRID - Column and Gutter totals
+	$columnTotal: 12;
+	$gutterTotal: 11;
+
+	$col: $r/(($r*$columnTotal) + $gutterTotal);
+	$gut: 1/(($r*$columnTotal) + $gutterTotal);
+
+
+
+		// GENERAL INTERNAL GRIDS
+
+		// grid11
+		$columnTotal-g11: 11;
+		$gutterTotal-g11: 10;
+
+		$col-g11: $r/(($r*$columnTotal-g11) + $gutterTotal-g11);
+		$gut-g11: 1/(($r*$columnTotal-g11) + $gutterTotal-g11);
+
+
+		// grid10
+		$columnTotal-g10: 10;
+		$gutterTotal-g10: 9;
+
+		$col-g10: $r/(($r*$columnTotal-g10) + $gutterTotal-g10);
+		$gut-g10: 1/(($r*$columnTotal-g10) + $gutterTotal-g10);
+
+
+		// grid9
+		$columnTotal-g9: 9;
+		$gutterTotal-g9: 8;
+
+		$col-g9: $r/(($r*$columnTotal-g9) + $gutterTotal-g9);
+		$gut-g9: 1/(($r*$columnTotal-g9) + $gutterTotal-g9);
+
+
+		// grid8
+		$columnTotal-g8: 8;
+		$gutterTotal-g8: 7;
+
+		$col-g8: $r/(($r*$columnTotal-g8) + $gutterTotal-g8);
+		$gut-g8: 1/(($r*$columnTotal-g8) + $gutterTotal-g8);
+
+
+		// grid7
+		$columnTotal-g7: 7;
+		$gutterTotal-g7: 6;
+
+		$col-g7: $r/(($r*$columnTotal-g7) + $gutterTotal-g7);
+		$gut-g7: 1/(($r*$columnTotal-g7) + $gutterTotal-g7);
+
+
+		// grid6
+		$columnTotal-g6: 6;
+		$gutterTotal-g6: 5;
+
+		$col-g6: $r/(($r*$columnTotal-g6) + $gutterTotal-g6);
+		$gut-g6: 1/(($r*$columnTotal-g6) + $gutterTotal-g6);
+
+
+		// grid5
+		$columnTotal-g5: 5;
+		$gutterTotal-g5: 4;
+
+		$col-g5: $r/(($r*$columnTotal-g5) + $gutterTotal-g5);
+		$gut-g5: 1/(($r*$columnTotal-g5) + $gutterTotal-g5);
+
+
+		// grid4
+		$columnTotal-g4: 4;
+		$gutterTotal-g4: 3;
+
+		$col-g4: $r/(($r*$columnTotal-g4) + $gutterTotal-g4);
+		$gut-g4: 1/(($r*$columnTotal-g4) + $gutterTotal-g4);
+
+
+		// grid3
+		$columnTotal-g3: 3;
+		$gutterTotal-g3: 2;
+
+		$col-g3: $r/(($r*$columnTotal-g3) + $gutterTotal-g3);
+		$gut-g3: 1/(($r*$columnTotal-g3) + $gutterTotal-g3);
+
+
+		// grid2
+		$columnTotal-g2: 2;
+		$gutterTotal-g2: 1;
+
+		$col-g2: $r/(($r*$columnTotal-g2) + $gutterTotal-g2);
+		$gut-g2: 1/(($r*$columnTotal-g2) + $gutterTotal-g2);
+
+
+
+		// SEPARATORS
+		
+		// General Grid Separators
+
+		// separator11
+		$sep-11: $gut/(11*$col + 10*$gut);
+		
+		// separator10
+		$sep-10: $gut/(10*$col + 9*$gut);
+		
+		// separator9
+		$sep-9: $gut/(9*$col + 8*$gut);
+
+		// separator8
+		$sep-8: $gut/(8*$col + 7*$gut);
+
+		// separator7
+		$sep-7: $gut/(7*$col + 6*$gut);
+
+		// separator6
+		$sep-6: $gut/(6*$col + 5*$gut);
+
+		// separator5
+		$sep-5: $gut/(5*$col + 4*$gut);
+
+		// separator4
+		$sep-4: $gut/(4*$col + 3*$gut);	
+
+		// separator3
+		$sep-3: $gut/(3*$col + 2*$gut);		
+	
+		// separator2
+		$sep-2: $gut/(2*$col + 1*$gut);		
+
+
+			// Grid B Separators
+
+			// separator-B3
+			$sep-B3: $gut-B/(3*$col-B + 2*$gut-B);		
+		
+			// separator-B2
+			$sep-B2: $gut-B/(2*$col-B + 1*$gut-B);	
+
+
+
+			// Grid C Separators
+
+			// separator-C5
+			$sep-C5: $gut-C/(5*$col-C + 4*$gut-C);		
+		
+			// separator-C4
+			$sep-C4: $gut-C/(4*$col-C + 3*$gut-C);	
+
+			// separator-C3
+			$sep-C3: $gut-C/(3*$col-C + 2*$gut-C);		
+		
+			// separator-C2
+			$sep-C2: $gut-C/(2*$col-C + 1*$gut-C);	

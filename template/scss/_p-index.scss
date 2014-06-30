@@ -1,0 +1,42 @@
+// PAGE SUPERBLOCK: INDEX
+
+// ===================================================================================
+
+// Rows
+
+.content {
+	@include make-row;
+}
+
+// ===================================================================================
+
+// Containers
+
+.content-container {
+
+	@include make-container-width;
+		width: $mobile-width;
+
+}
+
+// ===================================================================================
+
+// Index content
+
+.index {
+
+	h1 {
+		margin-bottom: 0.5em;
+		font-size: 2em;
+	}
+
+	p {
+		font-size: 1.5em;
+
+		&:last-child {
+			margin-top: 1em;
+		}
+
+	}
+
+}

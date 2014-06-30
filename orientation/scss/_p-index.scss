@@ -1,0 +1,69 @@
+// PAGE SUPERBLOCK: INDEX
+
+// ===================================================================================
+
+// Hero
+.hero {
+	background: $hero-bg-color;
+	min-height: 16em;
+}
+
+	.hero-container {
+		background: $hero-container-bg-color;
+		min-height: 12em;
+	}
+
+// ===================================================================================
+
+// Main Content
+
+.main-content {
+	background: $main-bg-color;
+	min-height: 36em;
+}
+
+	.main-content-container {
+		background: $main-container-bg-color;
+		min-height: 32em;		
+	}
+
+// ===================================================================================
+
+// Tiles 1 and 2
+.tile1,
+.tile2 {
+
+	background: $tile-bg-color;
+
+	@include MQ(BP960plus) {
+		float: left;	
+	}	
+
+}
+
+	.tile1 {
+
+		margin-bottom: 2em;
+		min-height: 18em;
+
+		@include MQ(BP960plus) {
+			width: percentage(8*$col + 6*$gut);
+			margin-right: percentage(2*$gut);	
+			margin-bottom: 0;
+			min-height: 32em;
+		}
+
+	}	
+
+	.tile2 {
+
+		min-height: 12em;
+
+		@include MQ(BP960plus) {
+			width: percentage(4*$col + 3*$gut);
+			min-height: 32em;
+		}
+
+	}		
+
+

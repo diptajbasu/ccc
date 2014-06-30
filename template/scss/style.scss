@@ -1,0 +1,30 @@
+// CSS Command Centers (#CCC) may be freely distributed under the MIT license.
+
+// This project uses the global supertiles / page supertiles configuration for smaller projects:
+
+// I. EXTERNAL LIBRARIES
+@import "compass";
+@import "awesome";
+
+
+// II. PROJECT FILES
+// A. General files
+@import "g-normalize";
+@import "g-normalize-ext";
+@import "g-html5boilerplate";
+@import "g-colors";
+@import "g-grids";
+@import "g-breakpoints";
+@import "g-patterns";
+@import "g-typography";
+@import "g-gen-elem";
+// @import "g-cms";
+// @import "g-gel";
+// @import "g-commons";
+
+
+// B. Global Supertiles
+
+
+// C. Page Supertiles
+@import "p-index";
