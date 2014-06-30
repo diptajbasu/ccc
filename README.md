@@ -13,4 +13,4 @@ ccc
 
 <p>Above all, Command Centers are used extensively as hubs in your codebase to manipulate specific, sweeping aspects of CSS - colors, grids, typography, breakpoints, etc. - instantly.</p>
 
-<p>For more information, please visit <a href="http://diptajbasu.com/css-command-centers/">CSS Command Centers</a>.</p>
+<p>For more information, please visit <a href="http://diptajbasu.com/css-command-centers/" target="_blank">CSS Command Centers</a>.</p>
