@@ -17,14 +17,14 @@ ccc
 <ul>
 <li>Make powerful concepts from OOCSS and SMACSS actionable</li>
 <li>Get a project started faster, by using (your own) modular, reusable structures and components across projects
-Complete projects with greater accuracy, predictability, control and organization
-Greater CSS maintainability over the longer-term for growing projects
-Avoid having to recreate similar CSS overhead from project to project
-Make sweeping changes to layout, colors, grids, breakpoints, etc. in a single, immediately accessible section of code
-Provide structure for creating commonplace modules of CSS: colors, grids, typography, layout, etc.
-Easily integrate popular HTML/CSS components (Normalize.css, HTML5 Boilerplate, Font Awesome, etc.) into a flexible, responsive framework
-A simple, overarching mental model to consider code for building responsive designs
-Offers simple terminology that labels common concepts in responsive design that don't have official HTML/CSS names so team members can communicate more accurately
+<li>Complete projects with greater accuracy, predictability, control and organization</li>
+<li>Greater CSS maintainability over the longer-term for growing projects</li>
+<li>Avoid having to recreate similar CSS overhead from project to project</li>
+<li>Make sweeping changes to layout, colors, grids, breakpoints, etc. in a single, immediately accessible section of code</li>
+<li>Provide structure for creating commonplace modules of CSS: colors, grids, typography, layout, etc.</li>
+<li>Easily integrate popular HTML/CSS components (Normalize.css, HTML5 Boilerplate, Font Awesome, etc.) into a flexible, responsive framework</li>
+<li>A simple, overarching mental model to consider code for building responsive designs</li>
+<li>Offers simple terminology that labels common concepts in responsive design that don't have official HTML/CSS names so team members can communicate more accurately</li>
 </ul>
 
 <p>For more information, please visit <a href="http://diptajbasu.com/css-command-centers/" target="_blank">CSS Command Centers</a>.</p>
