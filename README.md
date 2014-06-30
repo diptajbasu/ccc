@@ -1,4 +1,4 @@
-#ccc
+<h1>#ccc</h1>
 ===
 
 <p>CSS Command Centers (#CCC) is an organizational framework you can use to leverage the power of object-oriented CSS concepts in your projects.</p>
